@@ -2,7 +2,7 @@ import shutil
 
 
 train = []
-with open("train.txt", "r") as file:
+with open("./sample/dataset_ids/train.txt", "r") as file:
     lines = file.readlines()
     #print(lines)
     for line in lines:
@@ -21,7 +21,7 @@ for i in train:
 ####################################
 
 val = []
-with open("val.txt", "r") as file:
+with open("./sample/dataset_ids/val.txt", "r") as file:
     lines = file.readlines()
     #print(lines)
     for line in lines:
